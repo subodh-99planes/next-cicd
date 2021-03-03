@@ -1,0 +1,11 @@
+@import 'features/variables.scss';
+
+.form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.formBtnContainer {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,121 @@
+@import '../../../variables';
+
+.baseContainer {
+  width: 100%;
+}
+
+.text {
+  display: block;
+  margin-top: 15px;
+}
+
+.surveyMetadata {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &.completed {
+    position: relative;
+    &:after {
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      z-index:9999;
+      content: '';
+    }
+  }
+
+  .surveyMetaImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    @media (min-width: $screen-xl) {
+      height: 100%;
+    }
+
+    img {
+      object-fit: cover;
+      height: 250px;
+
+      @media (min-width: $screen-md) {
+        height: 350px;
+      }
+
+      @media (min-width: $screen-xl) {
+        height: 400px;
+      }
+    }
+  }
+
+  .surveyReactPlayer {
+      height: 200px;
+      width: 100%;
+
+      @media (min-width: $screen-md) {
+        height: 350px;
+        width: 100%;
+      }
+
+      @media (min-width: $screen-lg) {
+        height: 400px;
+        width: 100%;
+      }
+  }
+
+  .surveyReactPlayerAudio {
+    height: 200px;
+    width: 100%;
+}
+
+  .surveyMetaAudio {
+
+
+    &.yellow {
+      audio {
+        &::-webkit-media-controls-play-button,
+        &::-webkit-media-controls-panel {
+          background-color: $yellow-wash;
+          color: $yellow-wash;
+        }
+      }
+    }
+
+    &.red {
+      audio {
+        &::-webkit-media-controls-play-button,
+        &::-webkit-media-controls-panel {
+          background-color: $red-wash;
+          color: $red-wash;
+        }
+      }
+    }
+
+    &.purple {
+      audio {
+        &::-webkit-media-controls-play-button,
+        &::-webkit-media-controls-panel {
+          background-color: $purple-wash;
+          color: $purple-wash;
+        }
+      }
+    }
+
+    &.blue {
+      audio {
+        &::-webkit-media-controls-play-button,
+        &::-webkit-media-controls-panel {
+          background-color: $blue-wash;
+          color: $blue-wash;
+        }
+      }
+    }
+
+    &.default {
+      background-color: transparent;
+    }
+  }
+}

@@ -1,0 +1,145 @@
+@import "../../../variables";
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  @media (min-width: $screen-md) {
+    padding: 20px;
+  }
+
+  &.yellow {
+    background-color: $yellow-wash;
+  }
+
+  &.red {
+    background-color: $red-wash;
+  }
+
+  &.purple {
+    background-color: $purple-wash;
+  }
+
+  &.blue {
+    background-color: $blue-wash;
+  }
+
+  &.default {
+    background-color: transparent;
+  }
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  line-height: 2.8rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  user-select: none;
+
+  @media (min-width: $screen-md) {
+    font-size: 1.8rem;
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  &:hover input ~ .checkmark {
+    background-color: #f2f2f2;
+  }
+
+  &.yellow {
+    .checked {
+      background-color: $yellow;
+    }
+  }
+
+  &.red {
+    .checked {
+      background-color: $red;
+    }
+  }
+
+  &.purple {
+    .checked {
+      background-color: $purple;
+    }
+  }
+
+  &.blue {
+    .checked {
+      background-color: $blue;
+    }
+  }
+
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+}
+
+.text {
+  padding-left: 40px;
+
+  @media (max-width: $screen-md) {
+    padding-left: 10px;
+  }
+}
+
+/* Create a custom radio button */
+.checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  vertical-align: inherit;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  &.checked {
+    background-color: $red;
+  }
+
+  .checkedImg {
+    background-color: transparent;
+    width: 80%;
+    border-radius: 50%;
+  }
+
+  @media (min-width: $screen-md) {
+    height: 20px;
+    width: 20px;
+  }
+
+  &.yellow {
+    border-color: $yellow;
+  }
+
+  &.red {
+    border-color: $red;
+  }
+
+  &.purple {
+    border-color: $purple;
+  }
+
+  &.blue {
+    border-color: $blue;
+  }
+}

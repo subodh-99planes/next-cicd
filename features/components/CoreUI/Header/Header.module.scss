@@ -1,0 +1,45 @@
+@import '../../../variables';
+
+.header {
+  height: 80px;
+  min-width: 100vw;
+  background-color: $white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 50;
+  display: none;
+
+  @media (min-width: $screen-md) {
+    display: flex;
+  }
+
+  @media (min-width: $screen-xl) {
+    position: relative;
+    background-color: $wash;
+  }
+}
+
+.logoContainer {
+  flex: 1 1 auto;
+  padding: 18px;
+
+  @media (min-width: $screen-xl) {
+    flex: 1 1 30%;
+    background-color: $white;
+    padding: 20px 40px;
+  }
+}
+
+.cta {
+  flex: 1 1 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+  @media (min-width: $screen-xl) {
+    flex: 1 1 70%;
+    padding: 20px 40px;
+  }
+}

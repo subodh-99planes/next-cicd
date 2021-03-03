@@ -1,0 +1,72 @@
+@import '../../../variables';
+
+.main {
+  min-height: 100vh;
+  background-color: $wash;
+  flex-direction: column !important;
+  overflow-x: hidden;
+  max-width: 100vw;
+
+  @media (min-width: $screen-md) {
+    padding-top: 80px;
+    width: 100%;
+  }
+
+  @media (min-width: $screen-xl) {
+    flex-direction: row !important;
+    padding: 0;
+    min-height: calc(100vh - 80px);
+    overflow: hidden;
+  }
+}
+
+.sidebar {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  @media (min-width: $screen-xl) {
+    flex: 1 1 30%;
+    height: calc(100vh - 80px);
+    background-color: $white;
+  }
+}
+
+.content {
+  height: 100%;
+  flex: 1 1 70%;
+
+  @media (min-width: $screen-md) {
+    padding: 20px 40px;
+    justify-content: center;
+  }
+
+  @media (min-width: $screen-xl) {
+    padding: 0 0 0 6%;
+    width: 70%;
+    min-height: calc(100vh - 80px);
+  }
+}
+
+.slider {
+  width: 100% !important;
+
+  @media (min-width: $screen-md) {
+    // padding: 20px;
+    height: auto;
+  }
+
+  @media (min-width: $screen-xl) {
+    height: 540px;
+    flex: 1 1 100%;
+  }
+}
+
+.footer {
+  height: 20vh;
+  width: 100%;
+  padding: 10px 50px;
+  @media (max-width: $screen-md) {
+    display: none !important;
+  }
+}

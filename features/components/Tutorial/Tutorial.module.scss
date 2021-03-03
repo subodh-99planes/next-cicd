@@ -1,0 +1,96 @@
+@import '../../variables.scss';
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  display: none;
+  &.visible {
+    display: flex;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -webkit-filter: blur(2px);
+    backdrop-filter: blur(2px);
+  }
+  
+  .surveyCard {
+    margin: 0;
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 100px;
+    .mockImage {
+      width: 70vw;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 20px;
+    }
+  }
+}
+.coachMark {
+  z-index: 2;
+  margin-bottom: 10px;
+  position: absolute;
+
+  &.options, &.question {
+    .icon {
+      width: 70px;
+      height: 10vh;
+    }
+    top: 20px;
+  }
+  &.options {
+    left: -20px;
+  }
+  &.question {
+    right: -20px;
+  }
+  &.leftSwipe, &.rightSwipe {
+    bottom: -80px;
+
+    .icon {
+      width: 100px;
+      height: 12vh;
+    }
+  }
+  &.leftSwipe {
+    left: 0;
+  }
+  &.rightSwipe {
+    right: 0;
+  }
+}
+
+.completeBtn {
+  z-index: 2;
+  min-width: 150px;
+  width: 40vw;
+  background-color: $gray-300;
+}
+.handWritten {
+  font-family: "Nanum Pen Script", cursive;
+  color: $white;
+  font-size: 2.5rem !important;
+}

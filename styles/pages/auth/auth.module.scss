@@ -1,0 +1,84 @@
+@import 'features/variables.scss';
+
+.socialContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .socialButton {
+    margin-top: 30px;
+  }
+}
+
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .formSubButtonContainer {
+    margin-top: 30px;
+    font-size: 1.4rem;
+
+    .formSubBtn {
+      cursor: pointer;
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
+}
+.wrapper {
+  align-items: center;
+  width: 100%;
+  @media (max-width: $screen-md) {
+    padding: 20px;
+  }
+  @media (min-width: $screen-lg) {
+    padding: 0 70px 0 0;
+  }
+
+}
+
+.sidebarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 220px;
+  background: $tangaroa url('/static/images/signup-bg-mobile.png') no-repeat
+    center;
+  background-size: cover;
+  width: 100%;
+
+  @media (min-width: $screen-md) {
+    min-height: 300px;
+  }
+
+  @media (min-width: $screen-lg) {
+    min-height: calc(100vh - 80px);
+    background: $tangaroa url('/static/images/signup-bg-desktop.png') no-repeat
+      center;
+    background-size: cover;
+  }
+
+
+  p {
+    font-size: 4rem;
+    color: $white;
+    font-weight: 800;
+    text-align: center;
+
+    @media (min-width: $screen-md) {
+      font-size: 5rem;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 6rem;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 7.2rem;
+      font-weight: 900;
+    }
+  }
+}

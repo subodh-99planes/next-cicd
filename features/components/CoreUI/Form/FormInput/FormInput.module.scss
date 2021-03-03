@@ -1,0 +1,24 @@
+@import '../../../../variables.scss';
+
+.input {
+  font-family: $font-default;
+  font-size: 1.4rem;
+  padding: 15px 22px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: $shadow-sm;
+  display: block;
+  width: 100%;
+  &:focus {
+    outline: none;
+    box-shadow: $input-focus-box-shadow;
+  }
+
+  &::placeholder {
+    color: $text-wash;
+  }
+
+  @media (min-width: $screen-md) {
+    font-size: 1.6rem;
+  }
+}

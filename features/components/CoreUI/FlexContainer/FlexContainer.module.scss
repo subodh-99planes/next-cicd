@@ -1,0 +1,55 @@
+@import '../../../variables';
+
+.flexContainer {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+
+  &.fill {
+    width: 100%;
+  }
+
+  &.wrap {
+    flex-flow: wrap;
+  }
+
+  &.row {
+    flex-direction: row;
+  }
+
+  &.col {
+    flex-direction: column;
+  }
+
+  &.end {
+    justify-content: flex-end;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.spaceEven {
+    justify-content: space-evenly;
+  }
+
+  &.spaceAround {
+    justify-content: space-around;
+  }
+
+  &.spaceBetween {
+    justify-content: space-between;
+  }
+
+  &.start {
+    justify-content: flex-start;
+  }
+
+  &.alignStart {
+    align-items: flex-start;
+  }
+
+  &.alignEnd {
+    align-items: flex-end;
+  }
+}

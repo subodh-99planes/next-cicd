@@ -1,0 +1,51 @@
+@import '../../../variables';
+
+.container {
+  margin-bottom: 30px;
+
+  .text {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+
+    @media (min-width: $screen-md) {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.stepper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 330px;
+  margin-top: 20px;
+}
+
+.steps {
+  width: 40px;
+  height: 5px;
+  border-radius: 50px;
+
+  &:not(:last-child) {
+    margin-right: 7px;
+  }
+
+  &.yellow {
+    background-color: $yellow;
+  }
+
+  &.red {
+    background-color: $red;
+  }
+
+  &.purple {
+    background-color: $purple;
+  }
+
+  &.blue {
+    background-color: $blue;
+  }
+
+  &.default {
+    background-color: $light-gray;
+  }
+}

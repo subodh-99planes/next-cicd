@@ -1,0 +1,31 @@
+@import '../../../variables.scss';
+
+.button {
+  cursor: pointer;
+  padding: 12px 35px;
+  min-width: 150px;
+  max-width: 250px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  text-transform: capitalize;
+  font-family: $font-default;
+  border: 1px solid transparent;
+  font-size: 1.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &:focus {
+    outline: none;
+    box-shadow: $button-box-shadow;
+  }
+
+  img {
+    margin-right: 10px;
+  }
+
+  &.facebook {
+    color: $white;
+    background-color: #4267b2;
+  }
+}

@@ -1,0 +1,19 @@
+@import '../../../variables.scss';
+
+.progress {
+  margin-top: 5px;
+  height: 5px;
+  border-radius: 20px;
+  background-color: $light-gray;
+  min-width: 100px;
+
+  @media (min-width: $screen-md) {
+    min-width: 200px;
+  }
+
+  div {
+    height: 5px;
+    border-radius: 20px;
+    background: $brand-gradient;
+  }
+}

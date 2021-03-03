@@ -1,0 +1,2821 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "metadata",
+          "title": "Imagination Spectrum measures the vividness of your imagination across all senses (visual, sound, taste, touch, etc). ",
+          "choices": [
+            {
+              "value": "text",
+              "text": "How well can you picture an apple in your mind’s eye? Or hear the sound of a trumpet playing in your mind’s ear? Do these sensory experiences resemble the actual experience or do they vaguely resemble the real experience?  \n\nTo start, make a prediction. Consider carefully this question: How vivid is your imagination?"
+            }
+          ]
+        }
+      ],
+      "title": "Prediction"
+    },
+    {
+      "name": "page2",
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "metadata",
+          "description": "Look at the following image of a red apple then answer questions on the sensory experience that comes to mind when the image is no longer present. \n\nWhen ready, click start.",
+          "choices": [
+            {
+              "value": "image",
+              "text": "static/icons/apple.svg"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question1",
+          "title": "Image of the apple",
+          "description": "Imagine the apple as clearly as you can in your mind. Try to recreate the same image. Consider carefully the sensory experience that comes to mind. ",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Details and unique characteristics of the apple",
+          "description": "Imagine the apple as clearly as you can in your mind. Try to recreate the same image. Consider carefully the sensory experience that comes to mind. ",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Hold the apple in your hand",
+          "description": "Now imagine taking a bite out of the apple. Can you imagine what it’s like to...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Hear the crunch as you bite into the apple",
+          "description": "Now imagine taking a bite out of the apple. Can you imagine what it’s like to...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Chew the apple in your mouth",
+          "description": "Now imagine taking a bite out of the apple. Can you imagine what it’s like to...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Taste the sweet flavor of the apple",
+          "description": "Now imagine taking a bite out of the apple. Can you imagine what it’s like to...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question7",
+          "title": "Smell of freshly baked apple pie",
+          "description": "What if you were to bake the perfect apple pie, and enjoy a slice with a side of your favourite ice cream. Can you imagine…?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "Burning your mouth on hot apple pie filling",
+          "description": "What if you were to bake the perfect apple pie, and enjoy a slice with a side of your favourite ice cream. Can you imagine…?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": "Sweet and tart flavor of the apple pie",
+          "description": "Now imagine taking a bite out of the apple. Can you imagine what it’s like to...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question10",
+          "title": "A Cold bite of ice cream",
+          "description": "Now imagine taking a bite out of the apple. Can you imagine what it’s like to...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question11",
+          "title": "Brain freeze",
+          "description": "Now imagine taking a bite out of the apple. Can you imagine what it’s like to...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        }
+      ],
+      "title": "Static Imagery"
+    },
+    {
+      "name": "page3",
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "metadata",
+          "title": "When ready, play the video.",
+          "description": "Watch the following short video clip of a horse galloping then answer questions on the sensory experience that comes to mind when the video is no longer present. \n\nWhen ready, click next. ",
+          "choices": [
+            {
+              "value": "video",
+              "text": "https://www.youtube.com/watch?v=KR0g-1hnQPA"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question1",
+          "title": "Image of the hourse galloping",
+          "description": "Imagine the horse galloping in your mind. Try to recreate the same imagery. Consider carefully the sensory experience that comes to mind.\n",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Image of an open field",
+          "description": "Imagine the horse galloping in your mind. Try to recreate the same imagery. Consider carefully the sensory experience that comes to mind.\n",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Sound of the horse neighing",
+          "description": "Can you hear the horse? Try to imagine the sound accompanying the image.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Galloping sound from the horses' hooves hitting the ground",
+          "description": "Imagine the horse galloping in your mind. Try to recreate the same imagery. Consider carefully the sensory experience that comes to mind.\n",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Holding the reins in your hands",
+          "description": "Think back to the time before cars, when humans used to ride horses to get around. Can you imagine what it might have been like? Try to bring yourself there. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Natural movement of your body as you ride",
+          "description": "Imagine the horse galloping in your mind. Try to recreate the same imagery. Consider carefully the sensory experience that comes to mind.\n",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question7",
+          "title": "Cool breeze brushing against your cheeks ",
+          "description": "Imagine the horse galloping in your mind. Try to recreate the same imagery. Consider carefully the sensory experience that comes to mind.\n",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "Exact contours of their face",
+          "description": "Next think of a close friend or relative. Someone who you enjoy spending time with, but who is not with you at present. Can you imagine…",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": "Colour of their eyes",
+          "description": "Think of a close friend or relative. Someone who you enjoy spending time with, but who is not with you at present. Can you imagine…?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question10",
+          "title": "Their skin tone",
+          "description": "Think of a close friend or relative. Someone who you enjoy spending time with, but who is not with you at present. Can you imagine…?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question11",
+          "title": "Colour of their hair",
+          "description": "Think of a close friend or relative. Someone who you enjoy spending time with, but who is not with you at present. Can you imagine…?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question12",
+          "title": "Sound of their voice",
+          "description": "Think of a close friend or relative. Someone who you enjoy spending time with, but who is not with you at present. Can you imagine…?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question13",
+          "title": "Sharing a laugh",
+          "description": "Think of a close friend or relative. Someone who you enjoy spending time with, but who is not with you at present. Can you imagine…?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question14",
+          "title": "Image of your favourite restaurant ",
+          "description": "Imagine going out for dinner with your friend and ordering something on the menu you enjoy. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question15",
+          "title": "Smell of your favourite dish",
+          "description": "Imagine going out for dinner with your friend and ordering something on the menu you enjoy. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question16",
+          "title": "Taste of your favourite dish",
+          "description": "Imagine going out for dinner with your friend and ordering something on the menu you enjoy. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question17",
+          "title": "Exact contours of their face",
+          "description": "Now think of a famous person, someone who you’ve never met, but would be excited to meet in person. It could be your celebrity crush, or role model. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question18",
+          "title": "Colour of their eyes",
+          "description": "Now think of a famous person, someone who you’ve never met, but would be excited to meet in person. It could be your celebrity crush, or role model. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question19",
+          "title": "Their skin tone",
+          "description": "Now think of a famous person, someone who you’ve never met, but would be excited to meet in person. It could be your celebrity crush, or role model. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question20",
+          "title": "Colour of their hair",
+          "description": "Now think of a famous person, someone who you’ve never met, but would be excited to meet in person. It could be your celebrity crush, or role model. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question21",
+          "title": "Sound of their voice",
+          "description": "Now think of a famous person, someone who you’ve never met, but would be excited to meet in person. It could be your celebrity crush, or role model. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question22",
+          "title": "Feeling excited",
+          "description": "Now think of a famous person, someone who you’ve never met, but would be excited to meet in person. It could be your celebrity crush, or role model. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question23",
+          "title": "Image of the landmark",
+          "description": "Think of a famous landmark, something of historic importance such as the Pyramids, Statue of Liberty, or the Taj Mahal. Imagine you’re standing directly in front of this landmark. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question24",
+          "title": "Scenery around the landmark",
+          "description": "Think of a famous landmark, something of historic importance such as the Pyramids, Statue of Liberty, or the Taj Mahal. Imagine you’re standing directly in front of this landmark. Consider carefully the sensory experience that comes to mind. ",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question25",
+          "title": "Different angles of the landmark and scenery",
+          "description": "Now rotate this picture of the landmark and scenery 360 degrees in your mind. Rotate to one side, then the rear, the other side, and now the front again. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question26",
+          "title": "Unique characteristics and details of the landmark and scenery",
+          "description": "Now think of a famous person, someoneZoom-in for a close up of the landmark, as if you are looking through binoculars. Notice all the colours and shapes. Can you imagine…?who you’ve never met, but would be excited to meet in person. It could be your celebrity crush, or role model. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question27",
+          "title": "Unique characteristics and details of the landmark and scenery",
+          "description": "Zoom-in for a close up of the landmark, as if you are looking through binoculars. Notice all the colours and shapes. Can you imagine…?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question28",
+          "title": "Aerial view of the landmark and scenery",
+          "description": "Now zoom-out and try to picture an aerial view of the landmark and scenery. Can you imagine…?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        }
+      ],
+      "title": "Dynamic Imagery"
+    },
+    {
+      "name": "page4",
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "metadata",
+          "title": "When ready, play the sound.",
+          "description": "Listen to the sound of this flute then answer questions on the auditory experience that comes to mind when the sound is no longer present. Don’t worry about memorizing the tune. When ready, play the sound.",
+          "choices": [
+            {
+              "value": "audio",
+              "text": "https://soundcloud.com/chad-lawson/nocturne-in-f-minor-op-55-no-1-variation-piano-violin-cello"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question1",
+          "title": "Sound of the flute",
+          "description": "Listen to the sound of this flute then answer questions on the auditory experience that comes to mind when the sound is no longer present. Don’t worry about memorizing the tune. When ready, play the sound.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "The flute playing a familiar melody",
+          "description": "Now imagine the flute playing a familiar tune such as the tune to happy birthday or twinkle, twinkle little star. Can you imagine..? ",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Flute changing to a piano",
+          "description": "What if the flute transitioned to a piano part way through the melody. Can you imagine the flute changing to a piano?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "metadata",
+          "title": "When ready, play the video.",
+          "description": "Watch the following video of a violin with no sound. Can you imagine the violin playing in your mind?",
+          "choices": [
+            {
+              "value": "video",
+              "text": "https://www.youtube.com/watch?v=KR0g-1hnQPA"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Sound of the violin playing",
+          "description": "Watch the following video of a violin with no sound. Can you imagine the violin playing in your mind?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        }
+      ],
+      "title": "Musical Imagery"
+    },
+    {
+      "name": "page5",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question1",
+          "title": "The hall buzzing with excitement as you wait for the show to start",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Lights dim slowly and fade to black, signalling the show is about to start",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "The stage lites up with a blazing white light",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "The stage lites up with a blazing white light",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "The stage lites up with a blazing white light",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Your favorite singer is center stage",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question7",
+          "title": "The singer's passionate eyes like glittering stars",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "The voice of your favorite singer projects across the concert hall",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": "Electrifying guitar sound",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question10",
+          "title": "Deep sounding bass guitar",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question11",
+          "title": "Crash, bang, boom of the drums",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question12",
+          "title": "Vibration from the sounds filling the concert hall",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question13",
+          "title": "Your body dancing freely to the music",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question14",
+          "title": "Feeling hot and sticky",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question15",
+          "title": "Crowd roaring in applause at the end of the show",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question16",
+          "title": "Crowd roaring in applause at the end of the show",
+          "description": "Imagine you are at a live concert. Read the following sentences with sensory-rich details about the concert experience. Consider carefully the sensory experience that comes to mind.",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        }
+      ],
+      "title": "Literary Imagery"
+    },
+    {
+      "name": "page6",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question1",
+          "title": "Something salty (such as pretzels, chips, or french fries)",
+          "description": "Consider the different types of taste. Does some type of sensory experience come to mind when you imagine the taste of ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Something sweet (such as strawberries, chocolate, or cookies)",
+          "description": "Consider the different types of taste. Does some type of sensory experience come to mind when you imagine the taste of ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Something sour (such as lemons or limes)",
+          "description": "Consider the different types of taste. Does some type of sensory experience come to mind when you imagine the taste of ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Something spicy (such as hot pepper)",
+          "description": "Consider the different types of taste. Does some type of sensory experience come to mind when you imagine the taste of ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Something bitter (such as broccoli, tonic water, or brussel sprouts)",
+          "description": "Consider the different types of taste. Does some type of sensory experience come to mind when you imagine the taste of ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Something savoury (such as meat, mushrooms, or cheese)",
+          "description": "Consider the different types of taste. Does some type of sensory experience come to mind when you imagine the taste of ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question7",
+          "title": "Fragrant (such as flowers or perfume)",
+          "description": "Consider the following pleasant and unpleasant smells. Does some type of sensory experience come to mind when you imagine ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "Citrus (such as lemons or oranges)",
+          "description": "Consider the following pleasant and unpleasant smells. Does some type of sensory experience come to mind when you imagine ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": "Natural (such as pine or fresh cut grass)",
+          "description": "Consider the following pleasant and unpleasant smells. Does some type of sensory experience come to mind when you imagine ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question10",
+          "title": "Chemical (such as bleach or gasoline)",
+          "description": "Consider the following pleasant and unpleasant smells. Does some type of sensory experience come to mind when you imagine ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question11",
+          "title": "Decay (such as rotting meat or sour milk)",
+          "description": "Consider the following pleasant and unpleasant smells. Does some type of sensory experience come to mind when you imagine ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question12",
+          "title": "Nutty (such as popcorn, peanut butter, or almonds)",
+          "description": "Consider the following pleasant and unpleasant smells. Does some type of sensory experience come to mind when you imagine ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question13",
+          "title": "Minty (such as toothpaste or peppermint oil)",
+          "description": "Consider the following pleasant and unpleasant smells. Does some type of sensory experience come to mind when you imagine ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question14",
+          "title": "Pungent (such as ginger, blue cheese, or garlic)",
+          "description": "Consider the following pleasant and unpleasant smells. Does some type of sensory experience come to mind when you imagine ...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question15",
+          "title": "Flexion (such as bending your elbow or clenching your fist)",
+          "description": "Imagine yourself making the following body movements. Do not move your body in any way for this exercise. Consider carefully the sensory experience that comes to mind when you imagine...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question16",
+          "title": "Extension (such as standing up tall or straightening your legs)",
+          "description": "Imagine yourself making the following body movements. Do not move your body in any way for this exercise. Consider carefully the sensory experience that comes to mind when you imagine...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question17",
+          "title": "Abduction (such as raising your arms out to the sides)",
+          "description": "Imagine yourself making the following body movements. Do not move your body in any way for this exercise. Consider carefully the sensory experience that comes to mind when you imagine...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question18",
+          "title": "Adduction (such as bringing your arms down to the side of your body)",
+          "description": "Imagine yourself making the following body movements. Do not move your body in any way for this exercise. Consider carefully the sensory experience that comes to mind when you imagine...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question19",
+          "title": "Rotation (such as turning your head from side to side or twisting your body)",
+          "description": "Imagine yourself making the following body movements. Do not move your body in any way for this exercise. Consider carefully the sensory experience that comes to mind when you imagine...",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question20",
+          "title": "Feeling joy",
+          "description": "Consider the following emotions. Does some type of sensory experience come to mind when you imagine …",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question21",
+          "title": "Feeling surprised",
+          "description": "Consider the following emotions. Does some type of sensory experience come to mind when you imagine …",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question22",
+          "title": "Feeling sad",
+          "description": "Consider the following emotions. Does some type of sensory experience come to mind when you imagine …",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question23",
+          "title": "Feeling furious or angry",
+          "description": "Consider the following emotions. Does some type of sensory experience come to mind when you imagine …",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question24",
+          "title": "Feeling scared",
+          "description": "Consider the following emotions. Does some type of sensory experience come to mind when you imagine …",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question25",
+          "title": "Feeling happy",
+          "description": "Consider the following emotions. Does some type of sensory experience come to mind when you imagine …",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },{
+          "type": "radiogroup",
+          "name": "question26",
+          "title": "Feeling curious",
+          "description": "Consider the following emotions. Does some type of sensory experience come to mind when you imagine …",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        }
+      ],
+      "title": "Scenarios"
+    },
+    {
+      "name": "page7",
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "metadata",
+          "title": "When ready, play the sound.",
+          "description": "Listen to the following guided visualization and try to imagine yourself walking along a quiet beach. When ready, settle into a comfortable position and press play.",
+          "choices": [
+            {
+              "value": "audio",
+              "text": "https://soundcloud.com/chad-lawson/nocturne-in-f-minor-op-55-no-1-variation-piano-violin-cello"
+            },
+            {
+              "value": "text",
+              "text": "Imagine yourself walking along the shoreline of a quiet beach. The sun is shining brightly and feels so warm on your skin. While you walk, you feel your toes sink into the sand. The sand beneath your feet, feels smooth and the water warm. You watch as the waves roll onto the shore, leaving white froth as they recede back into the depths of the turquoise ocean. You hear the calming rhythm of the waves as they break on the shore. As you breathe in, the fresh ocean air fills your lungs completely. You can taste the salt of the ocean.  It is nearing sunset. The sun is sinking closer to the horizon. Its colour changing from bright yellow to orange – inching even closer to the horizon. As you gaze over the horizon, you notice a single star in the sky.dfdg"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question1",
+          "title": "Image of a beach",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Warmth of the sun",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Walking along a beach",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Sand beneath your feet ",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Warm ocean water",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Waves rolling onto the shore",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question7",
+          "title": "Sound of the waves crashing",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "Smell of fresh ocean air",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": "Taste of salt water",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question10",
+          "title": "Image of a beach",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question11",
+          "title": "Sunset changing from yellow to orange",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question12",
+          "title": "Single star in the sky",
+          "description": "Reflect back on this guided visualization. Consider carefully the sensory experience that came to mind. Can you imagine...?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "No image at all, I only know I am thinking of the apple"
+            },
+            {
+              "value": "item2",
+              "text": "Vague and dim image"
+            },
+            {
+              "value": "item3",
+              "text": "Moderately realistic and vivid image"
+            },
+            {
+              "value": "item4",
+              "text": "Realistic and reasonably vivid image"
+            },
+            {
+              "value": "item5",
+              "text": "Perfectly realistic and as vivid as seeing the apple "
+            }
+          ]
+        }
+      ],
+      "title": "Guided Visualization"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+@import '../../../../variables.scss';
+
+.label {
+  margin-left: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  display: block;
+
+  @media (min-width: $screen-md) {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,80 @@
+@import '../../../variables.scss';
+
+.button {
+  cursor: pointer;
+  border: none;
+  padding:10px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-family: $font-default;
+  font-size: 1.4rem;
+  color: $white;
+  border: 1px solid transparent;
+  outline: none;
+  &:focus {
+    outline: none;
+    box-shadow: $button-box-shadow;
+  }
+
+  @media (min-width: $screen-md) {
+    padding: 1.2rem 3.5rem;
+    font-size: 1.8rem;
+  }
+
+  &.yellow {
+    background-color: $yellow;
+
+    &:hover {
+      background-color: darken($yellow, 10%);
+    }
+  }
+
+  &.red {
+    background-color: $red;
+
+    &:hover {
+      background-color: darken($red, 10%);
+    }
+  }
+
+  &.purple {
+    background-color: $purple;
+
+    &:hover {
+      background-color: darken($purple, 10%);
+    }
+  }
+
+  &.blue {
+    background-color: $blue;
+
+    &:hover {
+      background-color: darken($blue, 10%);
+    }
+  }
+
+  &.gradient {
+    border-color: $white;
+    background: $brand-gradient;
+  }
+
+  &.inverse {
+    color: $black;
+    border: 1px solid $black;
+    background-color: transparent;
+  }
+
+  &.default {
+    color: $black;
+    background-color: $light-gray;
+
+    &:hover {
+      background-color: darken($light-gray, 10%);
+    }
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    background-color: $disabled;
+  }
+}
