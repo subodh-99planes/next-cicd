@@ -1,9 +1,8 @@
 language: node_js
 node_js:
-  - "11.6.0"
+  - "12.x"
 branches:
   only:
-    - staging
     - master
 deploy:
   - provider: elasticbeanstalk
