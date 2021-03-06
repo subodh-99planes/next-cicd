@@ -21,9 +21,3 @@ jobs:
 
       - name: Lint
         run: npm run lint
-
-      - name: Build
-        run: npm run build
-
-      - name: Deploy Next.js app
-        run: npm start
