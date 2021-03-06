@@ -9,8 +9,8 @@ dotenv.config({
 
 export default {
   env: process.env.NODE_ENV,
-  port: process.env.PORT || 3002,
-  host: process.env.HOST || `http://localhost:${process.env.PORT || 3002}`,
+  port: process.env.PORT || 8081,
+  host: process.env.HOST || `http://localhost:${process.env.PORT || 80}`,
   dbConfig: {
     dbName: process.env.DB_NAME,
     dbUser: process.env.DB_USER,

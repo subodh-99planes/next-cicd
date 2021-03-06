@@ -1,5 +1,5 @@
 import { GenericObject } from 'utils/utilTypes'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 
 interface UserDetails {
   surveyId: string;
