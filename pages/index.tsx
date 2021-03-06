@@ -38,7 +38,7 @@ const Home: NextPage<Props> = ({
       <Tutorial/>
       <Layout>
         <Header />
-        testingtest
+        Automatic deployment test
         {!error && <Survey survey={surveyDetails} email={email} userLocalData={userLocalData} />}
       </Layout>
     </>
