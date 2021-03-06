@@ -10,7 +10,7 @@
     "build:server": "tsc --project tsconfig.server.json",
     "build:next": "next build",
     "build": "npm run build:next && npm run build:server",
-    "start": "NODE_ENV=production npm run build && NODE_ENV=production node dist/server/index.js",
+    "start": "NODE_ENV=production node dist/server/index.js",
     "test": "mocha -r ts-node/register server/**/*.test.ts",
     "deploy-production": "NODE_ENV=production next build && NODE_ENV=production node dist/index.js"
   },
