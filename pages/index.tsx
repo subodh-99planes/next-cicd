@@ -38,6 +38,7 @@ const Home: NextPage<Props> = ({
       <Tutorial/>
       <Layout>
         <Header />
+        testing
         {!error && <Survey survey={surveyDetails} email={email} userLocalData={userLocalData} />}
       </Layout>
     </>
