@@ -38,7 +38,7 @@ const Home: NextPage<Props> = ({
       <Tutorial/>
       <Layout>
         <Header />
-        Automatic deployment test
+        Automate from prazwal
         {!error && <Survey survey={surveyDetails} email={email} userLocalData={userLocalData} />}
       </Layout>
     </>
