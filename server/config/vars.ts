@@ -1,11 +1,13 @@
 import path from 'path'
 import dotenv from 'dotenv-safe'
 
-// import .env variables
-dotenv.config({
-  path: path.join(__dirname, '../../.env'),
-  sample: path.join(__dirname, '../../.env.example')
-})
+if (process.env.NODE_ENV !== 'production') {
+  // import .env variables
+  dotenv.config({
+    path: path.join(__dirname, '../../.env'),
+    sample: path.join(__dirname, '../../.env.example')
+  })
+}
 
 export default {
   env: process.env.NODE_ENV,
