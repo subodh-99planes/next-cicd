@@ -1,5 +1,2 @@
-declare module '*.scss' {
-  const content: { readonly [className: string]: string };
-  export default content;
-}
-declare module '*.scss';
+/// <reference types="next" />
+/// <reference types="next/types/global" />

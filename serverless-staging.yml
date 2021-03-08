@@ -1,0 +1,15 @@
+name: staging-your-site-name
+
+staging-your-site-name:
+  component: '@sls-next/serverless-component@latest'
+  inputs:
+    bucketName: staging-your-site-name-s3
+    description: "Lambda@Edge for staging-your-site-name"
+    name:
+      defaultLambda: staging-your-site-name-lambda
+      apiLambda: staging-your-site-name-lambda
+    domain: ["staging-your-site-name", "bobhall.net"]
+    publicDirectoryCache: false
+    runtime:
+      defaultLambda: "nodejs12.x"
+      apiLambda: "nodejs12.x"

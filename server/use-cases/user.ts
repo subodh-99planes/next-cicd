@@ -1,4 +1,4 @@
-import bcrypt from 'bcryptjs'
+import bcrypt from 'bcrypt'
 import sgMail from '@sendgrid/mail'
 import httpStatus from 'http-status'
 import request from 'request'

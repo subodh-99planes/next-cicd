@@ -1,4 +1,4 @@
-import bcrypt from 'bcryptjs'
+import bcrypt from 'bcrypt'
 import httpStatus from 'http-status'
 
 const encode = (req, res, next) => {

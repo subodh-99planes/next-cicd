@@ -2,7 +2,7 @@ import path from 'path'
 import dotenv from 'dotenv-safe'
 
 if (process.env.NODE_ENV !== 'production') {
-  // import .env variables
+// import .env variables
   dotenv.config({
     path: path.join(__dirname, '../../.env'),
     sample: path.join(__dirname, '../../.env.example')
@@ -11,8 +11,8 @@ if (process.env.NODE_ENV !== 'production') {
 
 export default {
   env: process.env.NODE_ENV,
-  port: process.env.PORT || 8081,
-  host: process.env.HOST || `http://localhost:${process.env.PORT || 80}`,
+  port: process.env.PORT || 3002,
+  host: process.env.HOST || `http://localhost:${process.env.PORT || 3002}`,
   dbConfig: {
     dbName: process.env.DB_NAME,
     dbUser: process.env.DB_USER,

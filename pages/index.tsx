@@ -38,7 +38,6 @@ const Home: NextPage<Props> = ({
       <Tutorial/>
       <Layout>
         <Header />
-        Automate from subodh
         {!error && <Survey survey={surveyDetails} email={email} userLocalData={userLocalData} />}
       </Layout>
     </>

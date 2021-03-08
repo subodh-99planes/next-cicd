@@ -5,7 +5,7 @@ import Button from 'features/components/CoreUI/Button/Button'
 import { labels } from 'utils/localeConfig/en'
 
 import styles from 'styles/pages/auth/form/AuthForm.module.scss'
-import { useAuthForm } from 'features/components/Auth/useAuthForm'
+import { useAuthForm } from './useAuthForm'
 
 export const AuthForm: FC = () => {
   const {

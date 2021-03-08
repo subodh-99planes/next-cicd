@@ -147,11 +147,11 @@ export const useSurvey = ({
   )
 
   const completeSurvey = useCallback(
-    async (survey: { [key: string]: string }) => {
+    async (survey: { [key: string]: GenericObject }) => {
       const { message, error } = await submitSurvey({
         surveyId: id,
         email,
-        uid: survey?.uid as string,
+        uid: survey?.uid ? String(survey.uid) : '',
         result: _.omit(survey, 'uid')
       })
       if (message) {
@@ -193,7 +193,7 @@ export const useSurvey = ({
     if (email && userLocalData) {
       const surveyData = getFromStorage<UserResponse>(localStorageKey)
       if (surveyData) {
-        // completeSurvey(surveyData as GenericObject<GenericObject>)
+        completeSurvey(surveyData as GenericObject<GenericObject>)
       } else {
         throw new Error(errors.survey.localDataUnavailable)
       }

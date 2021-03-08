@@ -11,7 +11,7 @@ import {
 } from 'features/components/CoreUI'
 
 import styles from 'styles/pages/auth/auth.module.scss'
-import { AuthForm } from 'features/components/Auth/AuthForm'
+import { AuthForm } from 'features/components/Auth/Form/AuthForm'
 import { LoginForm } from 'features/components/LoginForm/form'
 import FlexContainer from 'features/components/CoreUI/FlexContainer/FlexContainer'
 
@@ -23,10 +23,12 @@ interface Props {
 }
 
 const loginWithGoogle = async () => {
-  window.open('http://localhost:3002/auth/google', '_self')
+  const host = window.location.host
+  window.open(`http://${host}/auth/google`, '_self')
 }
 const loginWithFacebook = async () => {
-  window.open('http://localhost:3002/auth/facebook', '_self')
+  const host = window.location.host
+  window.open(`http://${host}/auth/facebook`, '_self')
 }
 
 const Auth: FC<Props> = () => {

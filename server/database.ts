@@ -1,9 +1,7 @@
 import dotenv from 'dotenv-safe'
 import dbService from './config/db'
 
-if (process.env.NODE_ENV !== 'production') {
-  dotenv.config()
-}
+if (process.env.NODE_ENV !== 'production') dotenv.config()
 const initDB = async (): Promise<void> => {
   console.log('Setting up database...')
   // database collection will automatically be created if it does not exist

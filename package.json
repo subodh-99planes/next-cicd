@@ -11,8 +11,7 @@
     "build:next": "next build",
     "build": "npm run build:next && npm run build:server",
     "start": "NODE_ENV=production node dist/server/index.js",
-    "test": "mocha -r ts-node/register server/**/*.test.ts",
-    "deploy-production": "NODE_ENV=production next build && NODE_ENV=production node dist/index.js"
+    "test": "mocha -r ts-node/register server/**/*.test.ts"
   },
   "dependencies": {
     "@hookform/devtools": "^2.2.1",
@@ -20,9 +19,8 @@
     "@hookform/resolvers": "^0.1.1",
     "@hookform/strictly-typed": "0.0.4",
     "@sendgrid/mail": "^7.4.0",
-    "@zeit/next-css": "^1.0.1",
     "axios": "^0.20.0",
-    "bcryptjs": "^2.4.3",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
@@ -54,7 +52,6 @@
     "react-swipeable-views": "^0.13.9",
     "react-toastify": "^7.0.2",
     "request": "^2.88.2",
-    "sass": "^1.32.8",
     "survey-react": "^1.7.17",
     "ts-node": "^8.10.2",
     "yup": "^0.29.3"
@@ -102,10 +99,9 @@
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-standard": "^4.0.1",
     "prettier": "^1.18.2",
-    "serverless-domain-manager": "^5.1.0",
+    "serverless": "^1.74.1",
     "supertest": "^4.0.2",
     "typed-scss-modules": "^2.0.0",
-    "typescript": "^3.9.5",
-    "typescript-plugin-css-modules": "^3.2.0"
+    "typescript": "^3.9.5"
   }
 }
