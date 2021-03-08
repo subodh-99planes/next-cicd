@@ -45,4 +45,4 @@ jobs:
         run: npx serverless
 
       - name: Upload `.serverless` state to S3
-        run: aws s3 sync .serverless s3://bhall2001-serverless-state-bucket/next-cicd/staging/.serverless --delete
+        run: aws s3 sync .serverless s3://bhall2001-serverless-state-bucket/next-cicd-test/staging/.serverless --delete
