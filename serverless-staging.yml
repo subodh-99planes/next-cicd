@@ -1,14 +1,14 @@
-name: staging-your-site-name
+name: staging-next-cicd
 
-staging-your-site-name:
+staging-next-cicd:
   component: '@sls-next/serverless-component@latest'
   inputs:
-    bucketName: staging-your-site-name-s3
-    description: "Lambda@Edge for staging-your-site-name"
+    bucketName: staging-next-cicd-s3
+    description: "Lambda@Edge for staging-next-cicd"
     name:
-      defaultLambda: staging-your-site-name-lambda
-      apiLambda: staging-your-site-name-lambda
-    domain: ["staging-your-site-name", "bobhall.net"]
+      defaultLambda: staging-next-cicd-lambda
+      apiLambda: staging-next-cicd-lambda
+    domain: ["staging-next-cicd", "bobhall.net"]
     publicDirectoryCache: false
     runtime:
       defaultLambda: "nodejs12.x"
